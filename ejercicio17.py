@@ -1,8 +1,6 @@
 #ejercicio 17
-
 import os
 #declaracion
-
 nombre,edad="",0.0
 nombre=os.sys.argv[1]
 edad=float(os.sys.argv[2])
@@ -13,5 +11,4 @@ if (edad>=65):
     print(nombre,"apto para pension")
 else:
     print(nombre,"no apto para pension")
-
 #fin_if
